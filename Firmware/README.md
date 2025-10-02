@@ -20,7 +20,7 @@ A pasta `Firmware/` está organizada de forma modular para facilitar testes inde
 ├── 📂 DS3231/ *(Testes de RTC e gerenciamento de baixo consumo)*  
 │ └── `README.md` *(Implementação do Deep Sleep e Wake-up periódico)*  
 ├── 📂 **final-integration/** *(Versão final do firmware)*
-│ └── `README.md` *(Explicação sobre a versão final do firmware e integração dos módulos)*  
+│ └── `README.md` *(Explicação sobre a versão final do firmware)*  
 
 └── 📜 **README.md** *(Documentação geral do firmware)*  
 
