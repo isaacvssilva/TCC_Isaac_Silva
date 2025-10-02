@@ -10,18 +10,18 @@ O sistema foi projetado para baixo consumo de energia e monitoramento ambiental,
 
 A pasta `Firmware/` está organizada de forma modular para facilitar testes independentes e integração final:
 
-📂 Firmware/ *(Código para os módulos individuais)*
-├── 📂 sht30-sensor/         *(Código para leitura do sensor SHT30 (temperatura e umidade via I2C))*
-│   └── README.md            *(Documentação específica do sensor SHT30)*
-├── 📂 pluviometro-hall/     *(Código para medição de precipitação com sensor Hall A3144)*
-│   └── README.md            *(Documentação do pluviômetro)*
-├── 📂 lora-lorawan/         *(Comunicação sem fio via LoRaWAN (SX1276))*
-│   └── README.md            *(Configuração e uso do módulo LoRaWAN)*
-├── 📂 DS3231/               *(Testes de RTC e gerenciamento de baixo consumo)*
-│   └── README.md            *(Implementação do Deep Sleep e Wake-up periódico)*
-├── 📂 final-integration/    *(Versão final do firmware integrando todos os módulos)*
-│   └── README.md            *(Explicação da integração completa)*
-└── 📜 README.md             *(Documentação geral do firmware)*
+📂 Firmware/ *(Código para os módulos individuais)*  
+├── 📂 sht30-sensor/ *(Código para leitura do sensor de temperatura e umidade SHT30 via I2C)*  
+│ └── `README.md` *(Documentação específica do sensor SHT30)*  
+├── 📂 pluviometro-hall/ *(Código para medição de precipitação com sensor Hall A3144)*  
+│ └── `README.md` *(Documentação do pluviômetro)*  
+├── 📂 lora-lorawan/ *(Comunicação sem fio via LoRaWAN (SX1276))*  
+│ └── `README.md` *(Configuração e uso do módulo LoRaWAN)*  
+├── 📂 DS3231/ *(Testes de RTC e gerenciamento de baixo consumo)*  
+│ └── `README.md` *(Implementação do Deep Sleep e Wake-up periódico)*  
+├── 📂 final-integration/ *(Versão final do firmware, integrando todos os módulos do projeto)*
+│ └── `README.md` *(Explicação sobre a versão final do firmware e integração dos módulos)*  
+└── 📜 README.md *(Documentação geral do firmware)*  
 
 ---
 
