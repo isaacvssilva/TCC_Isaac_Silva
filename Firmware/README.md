@@ -1,6 +1,6 @@
 # Firmware - Miniestação Portátil Automatizada
 
-Este diretório contém todo o firmware necessário para o funcionamento da miniestação automatizada, baseadas na Raspberry Pi Pico Zero (RP2040) e na comunicação sem fio LoRa.  
+Este diretório contém todo o firmware necessário para o funcionamento da Miniestação Portátil Automatizada, baseada no microcontrolador RP2040 Zero (Waveshare) e na comunicação sem fio LoRaWAN.
 
 O sistema foi projetado para baixo consumo de energia e monitoramento ambiental, coletando dados de temperatura, umidade e precipitação, com transmissão periódica através da tecnologia LoRa.
 
@@ -10,7 +10,7 @@ O sistema foi projetado para baixo consumo de energia e monitoramento ambiental,
 
 A pasta `Firmware/` está organizada de forma modular para facilitar testes independentes e integração final:
 
-📂 Firmware/ *(Código para os módulos individuais)*  
+📂 Firmware/  
 ├── 📂 sht30-sensor/ *(Código para leitura do sensor de temperatura e umidade SHT30 via I2C)*  
 │ └── `README.md` *(Documentação específica do sensor SHT30)*  
 ├── 📂 pluviometro-hall/ *(Código para medição de precipitação com sensor Hall A3144)*  
@@ -19,8 +19,9 @@ A pasta `Firmware/` está organizada de forma modular para facilitar testes inde
 │ └── `README.md` *(Configuração e uso do módulo LoRaWAN)*  
 ├── 📂 DS3231/ *(Testes de RTC e gerenciamento de baixo consumo)*  
 │ └── `README.md` *(Implementação do Deep Sleep e Wake-up periódico)*  
-├── 📂 **final-integration/** *(Versão final do firmware, integrando todos os módulos do projeto)*
+├── 📂 **final-integration/** *(Versão final do firmware)*
 │ └── `README.md` *(Explicação sobre a versão final do firmware e integração dos módulos)*  
+
 └── 📜 **README.md** *(Documentação geral do firmware)*  
 
 ---
